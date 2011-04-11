@@ -1,4 +1,4 @@
-require 'globalize3'
+#require 'globalize3'
 
 class Page < ActiveRecord::Base
 
