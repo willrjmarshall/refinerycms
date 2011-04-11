@@ -2,7 +2,7 @@
 
 class Page < ActiveRecord::Base
 
-  translates :title, :meta_keywords, :meta_description, :browser_title, :custom_title if self.respond_to?(:translates)
+  #translates :title, :meta_keywords, :meta_description, :browser_title, :custom_title if self.respond_to?(:translates)
 
   # Set up support for meta tags through translations.
   if defined?(::Page::Translation) && Page::Translation.table_exists?
